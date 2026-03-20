@@ -12,8 +12,8 @@ driver.get("https://automationexercise.com/signup")
 driver.maximize_window()
 sleep(2)
 
-driver.find_element(By.NAME, "name").send_keys("ngs")
-driver.find_element(By.XPATH, "//input[@data-qa='signup-email']").send_keys("i123@gmail.com")
+driver.find_element(By.NAME, "name").send_keys("ng12s")
+driver.find_element(By.XPATH, "//input[@data-qa='signup-email']").send_keys("i12a123a3@gmail.com")
 driver.find_element(By.XPATH, "//button[@data-qa='signup-button']").click()
 sleep(2)
 
